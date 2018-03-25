@@ -5,12 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
+import { MatTabsModule } from '@angular/material/tabs';
+import {MatIconModule} from '@angular/material/icon';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    MatTabsModule,
+    BrowserAnimationsModule,
+    MatIconModule,
     BrowserModule,
     AppRoutingModule
   ],
